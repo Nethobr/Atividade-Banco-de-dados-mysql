@@ -16,21 +16,21 @@ create table filmes
 select * from filmes; -- vendo a table criada
 
 -- 2. Insira os seguintes registros na tabela "filmes": 
-insert into filmes (id, nome) values (default, "A Hora do Pesadelo");						 	-- 1
+insert into filmes (id, nome) values (default, "A Hora do Pesadelo");						 		-- 1
 insert into filmes (id, nome) values (default, "Bem-Hur "); 									-- 2
-insert into filmes (id, nome) values (default, "Como Eu Era antes de Você "); 					-- 3
+insert into filmes (id, nome) values (default, "Como Eu Era antes de Você "); 							-- 3
 insert into filmes (id, nome) values (default, "Estrada Sem Lei"); 								-- 4
-insert into filmes (id, nome) values (default, "Forrest Gump – O Contador de Histórias"); 		-- 5
-insert into filmes (id, nome) values (default, "Harry Potter e a Ordem da Fênix"); 				-- 6
+insert into filmes (id, nome) values (default, "Forrest Gump – O Contador de Histórias"); 					-- 5
+insert into filmes (id, nome) values (default, "Harry Potter e a Ordem da Fênix"); 						-- 6
 insert into filmes (id, nome) values (default, "Intocáveis"); 									-- 7
 insert into filmes (id, nome) values (default, "It – A Coisa"); 								-- 8
-insert into filmes (id, nome) values (default, "Minha Mãe É uma Peça"); 						-- 9
+insert into filmes (id, nome) values (default, "Minha Mãe É uma Peça"); 							-- 9
 insert into filmes (id, nome) values (default, "O Iluminado"); 									-- 10
-insert into filmes (id, nome) values (default, "O Resgate do Soldado Ryan"); 					-- 11
+insert into filmes (id, nome) values (default, "O Resgate do Soldado Ryan"); 							-- 11
 insert into filmes (id, nome) values (default, "Os Infiltrados"); 								-- 12
 insert into filmes (id, nome) values (default, "Vingadores"); 									-- 13
 insert into filmes (id, nome) values (default, "Pantera Negra"); 								-- 14
-insert into filmes (id, nome) values (default, "Para Todos os Garotos que Já Amei"); 			-- 15
+insert into filmes (id, nome) values (default, "Para Todos os Garotos que Já Amei"); 						-- 15
     
 select * from filmes; -- vendo todos os items inseridos
     
@@ -74,12 +74,12 @@ update acervo set genero = '2', ano = '2007' where id = 6; 				-- 6
 update acervo set genero = '4', ano = '2012' where id = 7; 				-- 7
 update acervo set genero = '7', ano = '2017' where id = 8; 				-- 8
 update acervo set genero = '3', ano = '2013' where id = 9; 				-- 9
-update acervo set genero = '7', ano = '1980' where id = 10; 			-- 10
-update acervo set genero = '4', ano = '1998' where id = 11; 			-- 11
-update acervo set genero = '5', ano = '2006' where id = 12; 			-- 12
-update acervo set genero = '1', ano = '2012' where id = 13; 			-- 13
-update acervo set genero = '1', ano = '2018' where id = 14; 			-- 14
-update acervo set genero = '6', ano = '2018' where id = 15; 			-- 15
+update acervo set genero = '7', ano = '1980' where id = 10; 				-- 10
+update acervo set genero = '4', ano = '1998' where id = 11; 				-- 11
+update acervo set genero = '5', ano = '2006' where id = 12; 				-- 12
+update acervo set genero = '1', ano = '2012' where id = 13; 				-- 13
+update acervo set genero = '1', ano = '2018' where id = 14; 				-- 14
+update acervo set genero = '6', ano = '2018' where id = 15; 				-- 15
 	
 select * from acervo; -- selecionando tudo para ver se deu certo :)
 
@@ -122,4 +122,3 @@ show databases;
 
 use locadora2;
 show tables;
-
